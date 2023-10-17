@@ -1,0 +1,23 @@
+#img1 {
+    background-image: url(../images/new-york_02.jpg);
+}
+
+#img2 {
+    background-image: url(../images/beijing-china.jpg);
+}
+
+#img3 {
+    background-image: url(../images/taipei-taiwan.jpg);
+}
+
+.parallax {
+    background: rgba(0, 0, 0, 0.5);
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-blend-mode: darken;
+    text-shadow: 2px 2px 2px black;
+}

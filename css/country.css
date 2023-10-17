@@ -1,0 +1,51 @@
+h3 {
+    color: #0D5EC0;
+    font-weight: bold;
+}
+
+.docs-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.docs-list li {
+    margin-bottom: 15px;
+}
+
+p {
+    font-weight: 500;
+}
+
+.docs-list li::before {
+    list-style-type: none;
+    content: "•";
+    font-size: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.img-card {
+    margin-left: 60px;
+}
+
+.file-icon {
+    width: 100px;
+    height: 100px;    
+}
+
+.accordion-button {
+    font-weight: 600;
+}
+
+.sublist li::before {
+    list-style-type: none;
+    content: "-";
+    font-size: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.sublist li b {
+    color: #0D5EC0;
+}
